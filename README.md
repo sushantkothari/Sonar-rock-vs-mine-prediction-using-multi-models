@@ -8,6 +8,7 @@ Table of Contents
 4.Visualization
 5..Models Used
 6.License
+
 Introduction
 In this project, we aim to classify sonar signals from a dataset into two classes: rocks (R) and mines (M). We employ various machine learning models and techniques to achieve this classification task.
 
@@ -68,5 +69,6 @@ Gradient Boosting
 XGBoost
 AdaBoost
 LightGBM
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.# Sonar-rock-vs-mine-prediction-using-multi-models
