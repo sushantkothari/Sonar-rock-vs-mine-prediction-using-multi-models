@@ -77,7 +77,22 @@ To run the project:
 
 ## Results
 
-The project compares the performance of various models based on accuracy, precision, recall, and F1-score. The best performing model is selected based on these metrics after hyperparameter tuning.
+The project compares the performance of various models based on accuracy, precision, recall, and F1-score. Here are the results of our model comparison:
+
+| Model                 | Accuracy | Precision | Recall | F1-Score |
+|-----------------------|----------|-----------|--------|----------|
+| Logistic Regression   | 0.7857   | 0.7889    | 0.7857 | 0.7869   |
+| Decision Tree         | 0.6667   | 0.7222    | 0.6667 | 0.6697   |
+| Random Forest         | 0.7857   | 0.7990    | 0.7857 | 0.7883   |
+| K-Nearest Neighbors   | 0.7857   | 0.8349    | 0.7857 | 0.7883   |
+| Support Vector Machine| 0.9048   | 0.9107    | 0.9048 | 0.9057   |
+| Neural Network        | 0.8333   | 0.8459    | 0.8333 | 0.8354   |
+| Gradient Boosting     | 0.7857   | 0.8349    | 0.7857 | 0.7883   |
+| XGBoost               | 0.8333   | 0.8617    | 0.8333 | 0.8357   |
+| AdaBoost              | 0.8333   | 0.8459    | 0.8333 | 0.8354   |
+| LightGBM              | 0.8333   | 0.8459    | 0.8333 | 0.8354   |
+
+Based on these results, the Support Vector Machine (SVM) model performs the best with the highest accuracy, precision, recall, and F1-score.
 
 ## Contributing
 
@@ -91,4 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - The Sonar dataset used in this project is from the UCI Machine Learning Repository.
 - Thanks to the scikit-learn, XGBoost, and LightGBM teams for their excellent machine learning libraries.
-
